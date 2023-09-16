@@ -1,17 +1,17 @@
 Tor plugin for Dokku
 =========================
 
-dokku-tor is a plugin for [dokku](https://github.com/dokku/dokku) that runs a [tor+privoxy](https://github.com/rdsubhas/docker-tor-privoxy-alpine) container linked to all deployed apps
+dokku-tor is a plugin for [dokku](https://github.com/dokku/dokku) that runs a [tor+privoxy](https://github.com/dockage/tor-privoxy) container linked to all deployed apps
 
 Requirements
 ------------
-* Dokku version `0.4.x` or higher
+* Dokku version `0.12.6` or higher
 
 Installation & Example
 -----------
 ```
 # installation
-$ dokku plugin:install https://github.com/michaelshobbs/dokku-tor.git
+$ dokku plugin:install https://github.com/rct-llc/dokku-tor.git
 ```
 ```
 # example
